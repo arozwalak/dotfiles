@@ -1,10 +1,13 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/opt/sonar-scanner/bin
-source ~/.profile
+
+test -e "${HOME}/.profile" && source "${HOME}/.profile"
+
+export DOTFILES=$HOME/.dotfiles
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.dotfiles/oh-my-zsh
+export ZSH=$DOTFILES/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -52,7 +55,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
-ZSH_CUSTOM=~/.dotfiles/.my-zsh
+ZSH_CUSTOM=$DOTFILES/.my-zsh
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -88,12 +91,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.dotfiles/profile
-source ~/.dotfiles/envs.zsh
-source ~/.dotfiles/aliases_global.zsh
-source ~/.dotfiles/aliases_osx.zsh
-source ~/.dotfiles/path.zsh
-source ~/.dotfiles/keybindings.zsh
+source $DOTFILES/profile
+source $DOTFILES/envs.zsh
+source $DOTFILES/aliases_global.zsh
+source $DOTFILES/aliases_osx.zsh
+source $DOTFILES/path.zsh
+source $DOTFILES/keybindings.zsh
 
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 fpath=(/usr/local/share/zsh-completions $fpath)
@@ -101,7 +104,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 #sh /Users/artur/Documents/Geeklets/TimeOnEarth/script.sh
 #. /Users/artur/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
-source ~/.envs
+test -e "${HOME}/.envs" && source "${HOME}/.envs"
 
 #source /usr/local/share/zsh/site-functions/_awless
 ###-begin-pm2-completion-###
