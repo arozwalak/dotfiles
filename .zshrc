@@ -148,5 +148,5 @@ elif type compctl &>/dev/null; then
 fi
 ###-end-pm2-completion-###
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+test -e "${DOTFILES}/.iterm2_shell_integration.zsh" && source "${DOTFILES}/.iterm2_shell_integration.zsh"
 
