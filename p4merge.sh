@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/Applications/p4merge.app/Contents/Resources/launchp4merge $*

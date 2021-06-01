@@ -1,0 +1,20 @@
+clipcopy       take
+clippaste      myip
+...              externalip
+....
+.....            dckr
+......           dps
+d               ds <name>
+1-9             dsd
+md              dlf <name>
+mcd
+rd              dl <name>
+rmd
+pu              deb <name>
+po              whoseport <PORT>
+lsa             diskspace
+l               zshrc
+ll              mngd
+la
+
+ws

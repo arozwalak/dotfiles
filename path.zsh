@@ -1,0 +1,22 @@
+export PATH="$PATH:/bin"
+export PATH="$PATH:/sbin"
+export PATH="$PATH:/usr/bin"
+export PATH="$PATH:/usr/sbin"
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:/usr/local/mysql/bin"
+export PATH="$PATH:/usr/local/Cellar/node/10.7.0/bin"
+export PATH="$PATH:/usr/local/lib/ruby/gems/2.6.0/bin"
+export PATH="$PATH:/opt/local/bin"
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.rvm/gems/ruby-2.4.0/bin"
+export PATH="$PATH:$HOME/.rvm/gems/ruby-2.4.0@global/bin"
+export PATH="$PATH:$HOME/.rvm/rubies/ruby-2.4.0/bin"
+export PATH="$PATH:$HOME/.npm-global/bin"
+export PATH="$PATH:$HOME/.vimpkg/bin"
+export PATH="$PATH:$HOME/bin"
+
+export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools
