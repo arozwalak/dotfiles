@@ -1,4 +1,4 @@
-alias myip="ipconfig getifaddr en1"
+alias myip="ipconfig getifaddr en0"
 alias externalip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias lsc='ls-scripts'
