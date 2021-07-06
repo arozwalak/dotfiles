@@ -24,7 +24,7 @@ drm() { docker rm $1 }
 drmf() { docker rm --force $1 }
 
 alias gpnv='git push --no-verify'
-alias gcamnv='git commit -no-verify -a -m'
+alias gcamnv='git commit --no-verify -a -m'
 alias gsmu='git submodule foreach "git checkout master; git pull"'
 alias gsm='git submodule foreach "git checkout master"'
 git-random(){ gitRan=$(curl -L -s http://whatthecommit.com/ |grep -A 1 "\"c" |tail -1 |sed 's/<p>//'); git commit -m "$gitRan"; }
