@@ -90,14 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-source $DOTFILES/profile
-source $DOTFILES/envs.zsh
-source $DOTFILES/aliases_global.zsh
-source $DOTFILES/aliases_osx.zsh
-source $DOTFILES/path.zsh
-source $DOTFILES/keybindings.zsh
-
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 fpath=(/usr/local/share/zsh-completions $fpath)
 
@@ -149,4 +141,13 @@ fi
 ###-end-pm2-completion-###
 
 test -e "${DOTFILES}/.iterm2_shell_integration.zsh" && source "${DOTFILES}/.iterm2_shell_integration.zsh"
+
+source $DOTFILES/profile
+source $DOTFILES/envs.zsh
+#source $DOTFILES/windows_envs.zsh
+source $DOTFILES/aliases_global.zsh
+source $DOTFILES/aliases_osx.zsh
+source $DOTFILES/path.zsh
+source $DOTFILES/keybindings.zsh
+
 

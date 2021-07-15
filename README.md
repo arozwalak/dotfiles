@@ -1,4 +1,8 @@
-Clone repository in your home directory
+## Install ZSH
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+## Clone repo
 
 ```
 git clone https://github.com/arozwalak/dotfiles.git .dotfiles
